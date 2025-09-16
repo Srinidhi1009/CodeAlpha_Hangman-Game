@@ -29,9 +29,9 @@ The game challenges players to guess a hidden word by entering one letter at a t
 3. Run the program in the terminal:
    ```bash
    python hangman.py
-
+   
 ## 📖 Example Gameplay
-
+```
 Welcome to Hangman!
 Guess the word: _ _ _ _ _ _
 
@@ -47,7 +47,7 @@ Enter a letter: a
 Word: _ _ _ _ _ _
 Guessed letters: a
 
-
+```
 ##  Learning Outcomes
 
 * Use of **loops, conditionals, and lists** in Python.
