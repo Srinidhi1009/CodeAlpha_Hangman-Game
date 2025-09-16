@@ -30,13 +30,13 @@ The game challenges players to guess a hidden word by entering one letter at a t
    ```bash
    python hangman.py
    
-## 📖 Example Gameplay
+##  Example Gameplay
 ```
 Welcome to Hangman!
 Guess the word: _ _ _ _ _ _
 
 Enter a letter: a
-❌ Wrong guess! Attempts left: 5
+Wrong guess! Attempts left: 5
   -----
   |   |
   O   |
@@ -47,6 +47,72 @@ Enter a letter: a
 Word: _ _ _ _ _ _
 Guessed letters: a
 
+```
+##  Hangman Stages
+
+```
+Stage 0:
+  -----
+  |   |
+      |
+      |
+      |
+      |
+=========
+
+Stage 1:
+  -----
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+
+Stage 2:
+  -----
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+
+Stage 3:
+  -----
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========
+
+Stage 4:
+  -----
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+
+Stage 5:
+  -----
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+
+Stage 6:
+  -----
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
 ```
 ##  Learning Outcomes
 
